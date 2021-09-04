@@ -1,9 +1,7 @@
-
-<!-- wp:template-part {"slug":"header","theme":"gumble","tagName":"header", "className": "site-header", "layout":{"inherit":true}, "align": "full", "gradient": "pale-ocean"} /-->
+<!-- wp:template-part {"slug":"header","theme":"gumble","layout":{"inherit":true}, "align": "full"} /-->
 
 <!-- wp:group {"tagName":"article","layout":{"inherit":false}} -->
 <article class="wp-block-group">
-
 	<!-- wp:group {"layout":{"inherit":true}} -->
 	<div class="wp-block-group">
 		<!-- wp:post-title {"level":1} /-->
@@ -18,8 +16,11 @@
 		<!-- wp:post-tags /-->
 	</div>
 	<!-- /wp:group -->
-
 </article>
 <!-- /wp:group -->
 
-<!-- wp:template-part {"slug":"footer","theme":"gumble","tagName":"footer","layout":{"inherit":false}} /-->
+<!-- wp:spacer {"height":180} -->
+<div style="height: 180px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
+
+<!-- wp:template-part {"slug":"footer","theme":"gumble","tagName":"footer", "layout": {"inherit":true}} /-->
