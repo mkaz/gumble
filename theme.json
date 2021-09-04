@@ -1,0 +1,129 @@
+{
+    "version": 1,
+    "settings": {
+        "color": {
+            "custom": false,
+            "palette": [
+                {
+                    "name": "Black",
+                    "slug": "black",
+                    "color": "#111111"
+                },
+                {
+                    "name": "White",
+                    "slug": "white",
+                    "color": "#ffffff"
+                },
+                {
+                    "name": "Slate Gray",
+                    "slug": "slate-gray",
+                    "color": "#7B818B"
+                },
+                {
+                    "name": "Dark Gray",
+                    "slug": "dark-gray",
+                    "color": "#353035"
+                },
+                {
+                    "name": "Off White",
+                    "slug": "off-white",
+                    "color": "#FFF2D7"
+                },
+				{
+					"name": "Info",
+					"slug": "info",
+					"color": "#d1ecf1"
+				},
+				{
+					"name": "Warning",
+					"slug": "warning",
+					"color": "#fff3cd"
+				},
+				{
+					"name": "Alert",
+					"slug": "alert",
+					"color": "#f8d7da"
+				},
+				{
+					"name": "Success",
+					"slug": "success",
+					"color": "#d4edda"
+				},
+				{
+					"name": "Dusty Red",
+					"slug": "dusty-red",
+					"color": "#B34645"
+				},
+				{
+					"name": "Silver",
+					"slug": "silver",
+					"color": "#CFDBD7"
+				},
+				{
+					"name": "Pale Sky Blue",
+					"slug": "pale-sky-blue",
+					"color": "#95D5E6"
+				},
+				{
+					"name": "Petrol",
+					"slug": "petrol",
+					"color": "#3e6d7b"
+				}
+
+            ]
+        },
+        "layout": {
+            "contentSize": "720px",
+            "wideSize": "960px"
+        },
+        "typography": {
+            "customFontSize": false,
+            "fontSizes": [
+                {
+                    "slug": "small",
+                    "size": "16px",
+                    "name": "Small"
+                },
+                {
+                    "slug": "normal",
+                    "size": "18px",
+                    "name": "Normal"
+                },
+                {
+                    "slug": "large",
+                    "size": "24px",
+                    "name": "Large"
+                },
+                {
+                    "slug": "extra-large",
+                    "size": "28px",
+                    "name": "XL"
+                },
+                {
+                    "slug": "huge",
+                    "size": "36px",
+                    "name": "Huge"
+                }
+            ]
+        }
+    },
+    "styles": {
+		"typography": {
+			"fontFamily": "'IBM Plex Serif', 'Droid Serif', Georgia, serif",
+			"fontSize": "var(--wp--preset--font-size--normal)",
+			"fontWeight": "300",
+			"fontStyle": "normal"
+
+		},
+		"elements": {
+			"link": {
+				"color": {
+					"text": "#B34645"
+				},
+				"typography": {
+					"textDecoration": "none"
+				}
+			}
+		}
+	}
+}

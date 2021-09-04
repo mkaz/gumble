@@ -1,0 +1,45 @@
+/*
+	Theme Name: Gumble
+    Text Domain: gumble
+	Version: 0.1.0
+	Description: A simple WordPress theme
+	Author: Marcus Kazmierczak
+	Author URI: https://mkaz.blog/
+	License: GNU General Public License version 2.0
+	License URI: http://www.gnu.org/licenses/gpl-2.0.html
+	Theme URI: https://github.com/mkaz/gumble
+	Requires PHP: 7.3
+	Tested up to: 5.8
+
+	All files, unless otherwise stated, are released under the GNU General Public License
+	version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
+*/
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin-top: 3.0rem;
+	margin-bottom: 0;
+	font-weight: 500;
+}
+
+header.site-header {
+	margin-top: 0;
+	margin-bottom: 64px;
+	padding: 48px 0 64px 0;
+}
+
+header.site-header h3 {
+	margin-top: 0;
+}
+
+body.home ul.wp-block-query-loop li {
+	padding-bottom: 32px;
+	margin-bottom: 32px;
+	border-bottom-width: 8px;
+	border-bottom-color: var(--wp--preset--color--petrol);
+	border-bottom-style: double;
+}
