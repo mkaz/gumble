@@ -7,7 +7,7 @@
 				{
 					"name": "Black",
 					"slug": "black",
-					"color": "#000000"
+					"color": "#1E1E1E"
 				},
 				{
 					"name": "White",
@@ -27,7 +27,7 @@
 				{
 					"name": "Off White",
 					"slug": "off-white",
-					"color": "#F0F0F0"
+					"color": "#F5F5F5"
 				},
 				{
 					"name": "Info",
@@ -103,7 +103,7 @@
 	},
 	"styles": {
 		"typography": {
-			"fontFamily": "'IBM Plex Serif', 'Droid Serif', Georgia, serif",
+			"fontFamily": "'IBM Plex Sans', 'Droid Serif', Georgia, serif",
 			"fontSize": "var(--wp--preset--font-size--normal)",
 			"fontWeight": "300",
 			"fontStyle": "normal"
