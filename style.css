@@ -1,7 +1,7 @@
 /*
 	Theme Name: Gumble
 	Text Domain: gumble
-	Version: 0.1.4
+	Version: 0.1.5
 	Description: A simple WordPress theme
 	Author: Marcus Kazmierczak
 	Author URI: https://mkaz.blog/
@@ -47,11 +47,31 @@ body.home ul.wp-block-post-template li h2 {
 	margin-top: 0;
 }
 
+article,
 body.home ul.wp-block-post-template li {
 	background-color: white;
 	border-radius: 16px;
 	padding: 32px;
 	margin-bottom: 32px;
+}
+
+article {
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+@media screen and (min-width: 760px) {
+	article {
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+}
+
+@media screen and (min-width: 760px) {
+	article {
+		margin-left: 9%;
+		margin-right: 9%;
+	}
 }
 
 div.wp-block-template-part {
